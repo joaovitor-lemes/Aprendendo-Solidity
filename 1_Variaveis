@@ -1,0 +1,42 @@
+// Aprendendo sobre variáveis e como elas se relacionam
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;	
+
+contract Exemplovariavel{
+
+    uint8 public variavel1 = 42;
+    uint8 public testLimit;
+    uint256 public numero;
+    bool public permissao;
+    string public nome;
+    address public contaRegistrada;
+    bytes public MeusBytes;
+
+
+    function Retornovariavel(uint8 _numero) external {
+
+        testLimit= _numero;
+    }
+
+    function InserirNumero(uint256 _numero) external {
+        
+        numero = _numero;
+    }
+
+    function Mudarpermissao(bool _TrueFalse) external {
+
+        permissao = _TrueFalse;
+    }
+    
+	function MudarNome(address _endereco) external{
+        
+        contaRegistrada = _endereco;
+    }
+
+    function registrameuenderco(string memory _meunome) external {
+        contaRegistrada = msg.sender;
+        nome = _meunome;
+    }
+
+}
