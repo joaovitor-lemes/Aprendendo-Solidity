@@ -5,3 +5,4 @@ Nesse Repositorio é onde marco meu progresso no aprendizado da Linguagem Solidi
 - Padrão ERC20
 - Variáveis 
 - Operadores
+- Integrações
