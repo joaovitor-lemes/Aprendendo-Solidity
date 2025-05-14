@@ -6,3 +6,5 @@ Nesse Repositorio é onde marco meu progresso no aprendizado da Linguagem Solidi
 - Variáveis 
 - Operadores
 - Integrações
+- Otimização de Gas
+- Boas Práticas
