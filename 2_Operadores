@@ -12,6 +12,12 @@ contract Operadores{
         return media;
     }
 
+    function calcularDivisao(uint256 a, uint256 b) public pure returns (uint256){
+        uint256 divisao = a/b;
+        return divisao;
+    }
+
+
     // Calculando a Multiplicação de duas Variáveis
     function calcularMult(uint256 a, uint256 b) public pure returns(uint256){
         uint256 mult = a*b;
